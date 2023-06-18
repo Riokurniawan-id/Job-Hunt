@@ -1,6 +1,6 @@
-import LandingPage from "../page/landing-page/landingPage";
-import FindJobs from "../page/find-jobs/findJobs";
-import BrouseCompanies from "../page/browse-companies/brouseCompanies";
+import LandingPage from "../components/page/landing-page/landingPage";
+import FindJobs from "../components/page/find-jobs/findJobs";
+import BrouseCompanies from "../components/page/browse-companies/brouseCompanies";
 
 const PublicRouters = [
   {
