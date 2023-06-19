@@ -1,7 +1,7 @@
 import Input from "../atoms/input";
 import SearchIcon from "../../assets/vektor/search-icon.svg";
 import LocationIcon from "../../assets/vektor/location-icon.svg";
-import ButtonPrimary from "../atoms/button";
+// import ButtonPrimary from "../atoms/button";
 
 function SearchBar() {
   return (
@@ -26,11 +26,11 @@ function SearchBar() {
         <option value="Jambi" />
         <option value="Indonesia" />
       </datalist>
-      <ButtonPrimary
+      {/* <ButtonPrimary
         text="Search my job"
         type="submmit"
         className="w-full md:w-auto"
-      />
+      /> */}
     </form>
   );
 }
